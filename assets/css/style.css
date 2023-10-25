@@ -192,7 +192,7 @@ html {
     margin-top: 46px;
     padding-top: 50%;
     /*Để quy định chiều dài bằng một nửa chiều ngang*/
-    background: url('/w3-band/assets/img/slide-img/chicago.jpg') top center / cover no-repeat;
+    background: url('../img/slide-img/chicago.jpg') top center / cover no-repeat;
 
 
 }
