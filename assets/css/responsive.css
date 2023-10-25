@@ -1,0 +1,122 @@
+@media (max-width:739px) {
+
+    #header {
+        overflow: hidden;
+        /*responsive , ẩn tất cả các thuộc tính nằm bên ngoài phạm vi */
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .menu-icon-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .nav {
+        display: block;
+    }
+
+    .nav .subnav {
+        position: initial;
+        /*trả lại giá trị mặc định*/
+        background-color: #000;
+    }
+
+    .nav .subnav a {
+        color: #fff;
+        padding: 5px 24px;
+    }
+
+
+    .nav>li {
+        display: block;
+    }
+
+    .nav>li:first-child {
+        display: inline-block;
+    }
+
+    /*content*/
+
+    #content .member-item-mobile {
+        padding-top: 24px;
+        width: 100%;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+
+    .place-buy-btn{
+        width: 100%;
+    }
+
+    /*places*/
+    .s-full-width,
+    .s-col-full {
+        width: 100%;
+    }
+
+    .contact-form {
+        margin-top: 28px;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px;
+    }
+
+    .contact-desc p {
+        line-height: 1.8;
+    }
+
+
+}
+
+/*pc*/
+@media (min-width: 1024px) {
+    .menu-icon-btn {
+        display: none;
+    }
+}
+
+/*tablet*/
+@media (min-width: 740px) and (max-width: 1023px) {
+    .menu-icon-btn {
+        display: none;
+    }
+
+    
+    .contact-desc {
+        line-height: 2;
+    }
+
+}
+
+/*tablet & mobile*/
+@media (max-width: 1023px) {
+    .place-buy-btn {
+        padding: 15px 16px;
+    }
+    .contact-form .form-control{
+        padding: 15px;
+    }
+
+    .social a {
+        font-size: 36px;
+        margin: 0px 16px;
+    }
+
+    .copyright, .copyright>a{
+        margin: 25px 0px;
+        font-size: 24px;
+    }
+
+    .nav .subnav a {
+        padding: 8px 12px;
+
+    }
+
+}
